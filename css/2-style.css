@@ -1,0 +1,231 @@
+body {
+    font-family: 'Roboto Slab', Verdana, sans-serif;
+}
+.c-yellow {
+    color: #e5c100;
+}
+.c-green {
+    color: #28a745;
+}
+.c-blue {
+    color: #0074d9;
+}
+.c-navy {
+    color: #001f3f;
+}
+.c-red {
+    color: #dc3545;
+}
+.logo {
+    background-image: url('../img/logo-white.png');
+}
+.nav.light .logo {
+    background-image: url('../img/logo.png');
+}
+.page-header {
+    background-image: url("../img/bg-xs.jpg");
+    color: #fff;
+}
+@media (min-width: 576px) {
+    .page-header {
+        background-image: url("../img/bg.jpg");
+    }
+}
+.card {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+}
+.card .icon {
+    font-size: 5rem;
+}
+.card h3 {
+    margin: 2.5rem 0 1.5rem;
+}
+.card .btn {
+    align-self: center;
+}
+.show-img {
+    text-align: center;
+    margin: 3.5rem 1rem;
+    height: 250px;
+}
+.show-img img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.banner {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.banner h2 {
+    margin-bottom: 1.5rem;
+}
+.products {
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+}
+.products .cards-grid {
+    display: flex;
+    transform: translateX(0);
+    transition: .5s ease;
+}
+.products .card {
+    border: 1px solid rgba(0,0,0,.125);
+    text-align: left;
+    width: 320px;
+    margin: 0 5px;
+    order: 1;
+    flex-shrink: 0;
+}
+.products .card:first-child {
+    margin-left: 0;
+}
+.products .card:last-child {
+    margin-right: 0;
+}
+.products .footer {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.products .footer .difficulty {
+    margin-top: .5rem;
+}
+.products .arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    display: none;
+}
+.products .arrow.active {
+    display: block;
+}
+.products .arrow button {
+    width: 30px;
+    height: 30px;
+    font-size: 1.3rem;
+    background: #fff;
+    color: #525d6b;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+.products .arrow-right {
+    right: 0;
+}
+.products .arrow-left {
+    left: 0;
+}
+.products-footer {
+    margin: 1rem 1%;
+    text-align: center;
+}
+.prices .card {
+    background-color: #525d6b;
+    color: #fff;
+    border-radius: 0;
+}
+.prices .card.highlight {
+    background-color: #3498db;
+}
+@media screen and (min-width: 576px) {
+    .prices .card .body {
+        min-height: 140px;
+    }
+    .prices .col-md-4 {
+        padding: 0;
+    }
+}
+.slider {
+    -webkit-appearance: none;
+    margin: .5rem 0 1.5rem;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    max-width: 400px;
+}
+.slider:hover {
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #3498db;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #3498db;
+    cursor: pointer;
+}
+#priceSliderLabel {
+    display: block;
+}
+.img-grid {
+    text-align: center;
+}
+.img-grid img {
+    height: 150px;
+    max-width: 100%;
+    margin: 1rem;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #bbb; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #777; 
+}
+[data-aos] {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s opacity ease-in-out, .3s transform ease-in-out;
+}
+[data-aos="fade-right"] {
+    transform: translateX(-100px);
+}
+[data-aos="fade-left"] {
+    transform: translateX(100px);
+}
+[data-aos].animate {
+    opacity: 1;
+    width: auto;
+    visibility: visible;
+    transform: translateX(0);
+}
+.typed-text:after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .9s ease-in-out infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
