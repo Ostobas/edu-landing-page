@@ -48,15 +48,13 @@ ui.form('#signUpForm', [{
             type: 'required',
             message: 'Please enter your first name!'
         }]
-    },
-    {
+    }, {
         name: 'lastname',
         rules: [{
             type: 'required',
             message: 'Please enter your last name!'
         }]
-    },
-    {
+    }, {
         name: 'email',
         rules: [{
                 type: 'required',
@@ -67,8 +65,7 @@ ui.form('#signUpForm', [{
                 message: 'The given email address is not valid.'
             }
         ]
-    },
-    {
+    }, {
         name: 'password',
         rules: [{
                 type: 'required',
@@ -79,15 +76,23 @@ ui.form('#signUpForm', [{
                 message: 'The password must be at least 6 characters long.'
             }
         ]
-    },
-    {
+    }, {
+        name: 'repassword',
+        rules: [{
+                type: 'required',
+                message: 'Please enter your pasword again!'
+            },{
+                type: 'sameAs(password)',
+                message: 'The two passwords not matches.'
+            }
+        ]
+    }, {
         name: 'privacy',
         rules: [{
             type: 'required',
             message: 'You must accept the Privacy Statement!'
         }]
-    },
-    {
+    }, {
         name: 'newsletter',
         rules: [{
             type: 'required',

@@ -93,8 +93,8 @@
         validateForm: function (form, validator) {
 
             var
-                fieldValue, fieldName,
-                ruleType, ruleMsg, numbOfRules, result, num,
+                fieldValue, fieldName, field,
+                ruleType, ruleMsg, numbOfRules, result, num, str,
                 errorList = [],
                 invalidFieldList = [],
                 validFields = [],
@@ -132,6 +132,8 @@
                     ruleType = validator[i].rules[j].type
                     // Get the number from the rule
                     num = Number(ruleType.match(/\w+/g)[1]) || 0
+                    // Get the string from the rule
+                    str = ruleType.match(/\w+/g)[1] || ''
                     // Transform the ruletype to just text
                     ruleType = ruleType.match(/\w+/g)[0]
 
@@ -157,6 +159,10 @@
                             result = !isLong(fieldValue, num)
                             break
 
+                        case 'sameAs' :
+                            result = isSame(fieldValue, str)
+                            break
+
                         default:
                             console.error('[UI] This rule does not exist:', ruleType)
                             break
@@ -164,10 +170,13 @@
 
                     if (result) {
                         // The field is valid, push it tot the valid field list
-                        validFields.push({
-                            name: fieldName,
-                            value: fieldValue
-                        })
+                        if (!validFields.filter(function(e) { return e.name === fieldName }).length > 0) {
+                            // Check if the field is already in the array
+                            validFields.push({
+                                name: fieldName,
+                                value: fieldValue
+                            })
+                          }
                     } else {
                         // The field is invalid, push the error msg
                         errorList.push(ruleMsg)
@@ -197,6 +206,10 @@
 
             function isLong(val, num) {
                 return (val.length > num)
+            }
+
+            function isSame(val, str) {
+                return form.elements[str].value === val
             }
 
             // If there are error messages, the form is invalid. We return false and the error messages.
