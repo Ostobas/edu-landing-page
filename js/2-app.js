@@ -30,15 +30,18 @@ ui.form('#loginForm', [{
         ]
     }
 ], function (results) {
-    var xhttp = new XMLHttpRequest()
-    xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            console.log(this.responseText)
+    console.log(results)
+    if (results.valid) {
+        var xhttp = new XMLHttpRequest()
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText)
+            }
         }
+        xhttp.open('POST', '/api/v1/auth/login.php', true)
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+        xhttp.send(results)
     }
-    xhttp.open('POST', '/api/v1/auth/login.php', true)
-    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
-    xhttp.send(results)
 })
 
 // Sign Up form validation
@@ -101,6 +104,17 @@ ui.form('#signUpForm', [{
     }
 ], function (results) {
     console.log(results)
+    if (results.valid) {
+        var xhttp = new XMLHttpRequest()
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText)
+            }
+        }
+        xhttp.open('POST', '/api/v1/auth/registration.php', true)
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+        xhttp.send(results)
+    }
 })
 
 // Checks for cookie banner and create one if needed
