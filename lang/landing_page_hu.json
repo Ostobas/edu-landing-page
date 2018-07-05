@@ -17,7 +17,15 @@
     "pageHeader": {
         "title": "Játékosítással az órák",
         "subTitle": "Hiszünk a játékos okatatás erejében és üzleti szimulációinkkal is ezt képviseljük!",
-        "btn": "DEMO kipróbálása"
+        "btn": "DEMO kipróbálása",
+		"typedText1": "izgalmasabbak",
+		"typedText2": "szórakoztatóbak",
+		"typedText3": "emlékezetesebbek",
+		"typedText4": "erőteljesebbek",
+		"typedText5": "effective",
+		"typedText6": "érdekesebbek",
+		"typedText7": "színesebbek",
+		"cookieText": "A weboldalon sütiket (cookie-kat) használunk, hogy biztonságos böngészés mellett a legjobb felhasználói élményt nyújthassuk látogatóinknak. Ha továbbra is marad ezen a webhelyen, elfogadja a cookie-k használatát."
     },
     "about": {
 		"title": "Miért egyedülálló megoldás az oktatási szimuláció?",
@@ -192,37 +200,68 @@
 		"privacy": "<a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Adatvédelmi Nyilatkozat</a>",
 		"copyright": "Copyright 2018 EcoSim"
     },
-    "modals": {
+	 "modals": {
 		"login": {
 			"title": "Üdvözöljük!",
-			"email": "Email cím",
-			"emailPH": "pl.: pelda@xyz.hu",
-			"pass": "Jelszó",
-			"passPH": "Írd ide a jelszavad",
-			"forgotpass": "Jelszó emlékeztető",
+			"email": {
+				"text": "Email cím",
+				"placeholder": "név@minta.com",
+				"reqMsg": "Kérünk adj meg egy email címet!",
+				"validMsg": "A megadott email cím nem érvényes."
+			},
+			"password": {
+				"text": "Jelszó",
+				"placeholder": "Jelszavad",
+				"reqMsg": "Kérünk adj meg egy jelszót!",
+				"minLengthMsg": "Jelszó minimum 6 karakteres legyen!",
+				"forgot": "Jelszó emlékeztető"
+			},
 			"btn": "Bejelentkezés",
 			"text": "Nincs még fiókom.",
 			"signup": "Iratkozz fel!"
 		},
 		"signup": {
 			"title": "Hozz létre fiókot!",
-			"firstname": "Keresztnév",
-			"firstnamePH": "pl.: Ádám",
-			"lastname": "Vezetéknév",
-			"lastnamePH": "pl.: Nagy",
-			"email": "Email cím",
-			"emailPH": "pl.: pelda@xyz.hu",
-			"pass": "Jelszó",
-			"passPH": "Írd ide a jelszavad",
-			"passinfo": "Jelszó minimum 6 karakteres legyen!",
-			"repass": "Jelszó mégegyszer",
-			"repassPH": "A két jelszónak meg kell egyeznie",
-			"privacy": "Elolvastam és elfogadom az <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Adatvédelmi Nyilatkozatot</a>",
-			"newsletter": "Iratkozz fel a hírlevélre!",
+			"firstname": {
+				"text": "Keresztnév",
+				"placeholder": "például János",
+				"reqMsg": "Kérünk add meg a keresztnevedet!"
+			},
+			"lastname": {
+				"text": "Vezetéknév",
+				"placeholder": "például Kovács",
+				"reqMsg": "Kérünk add meg a vezetéknevedet!"
+			},
+			"email": {
+				"text": "Email cím",
+				"placeholder": "név@minta.com",
+				"reqMsg": "Kérünk adj meg egy email címet!",
+				"validMsg": "A megadott email cím nem érvényes."
+			},
+			"password": {
+				"text": "Jelszó",
+				"placeholder": "Jelszavad",
+				"info": "Jelszó minimum 6 karakteres legyen!",
+				"reqMsg": "Please enter a password!",
+				"minLengthMsg": "A jelszónak legalább 6 karakteresnek kell lennie."
+			},
+			"repassword": {
+				"text": "Jelszó újra",
+				"placeholder": "A két jelszónak egyeznie kell",
+				"reqMsg": "Kérünk add meg a jelszavad újból!",
+				"sameAsMsg": "A két jelszó nem egyezik"
+			},
+			"privacy": {
+				"text": "Elolvastam és elfogadom az <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Adatvédelmi Nyilatkozatot</a>",
+				"reqMsg": "Kérünk fogadd el az Adatvédelmi Nyilatkozatot!"
+			},			
+			"newsletter": {
+				"text": "Iratkozz fel a hírlevélre!",
+				"reqMsg": "Kérünk iratkozz fel a hírlevélre!"
+			},
 			"btn": "Fiók létrehozása",
 			"text": "Már van saját fiókod?",
 			"login": "Bejelentkezés"
 		}
     }
-
 }

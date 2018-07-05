@@ -172,7 +172,7 @@ function insertParam(key, value)
             break;
         }
     }
-
+äđ
     if(i<0) {kvp[kvp.length] = [key,value].join('=');}
 
     //this will reload the page, it's likely better to store this until finished

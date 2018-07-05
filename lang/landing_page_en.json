@@ -15,9 +15,17 @@
 		"signup": "Sign Up"
     },
     "pageHeader": {
-        "title:": "Studying can be",
+        "title": "Studying can be",
         "subTitle": "We believe in the power of gamification, which is embodied in our business simulations for education purposes!",
-        "btn": "Request Demo"
+        "btn": "Request Demo",
+		"typedText1": "fun",
+		"typedText2": "engaging",
+		"typedText3": "interesting",
+		"typedText4": "enjoyable",
+		"typedText5": "effective",
+		"typedText6": "powerful",
+		"typedText7": "playful",
+		"cookieText": "We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies."
     },
     "about": {
 		"title": "Why simulation is an incredible solution?",
@@ -33,8 +41,8 @@
 				"subTitle": "Increase student engagement through gamification and by creating a competitive environment"
 			},
 			"item3": {
-				"title": "Find out what is the best fit for you!",
-				"subTitle": "Choose from various industries from banking through retail to production. We have a wide selection of products. To find the best solution browse from our simulations!"
+				"title": "Easy to use",
+				"subTitle": "User friendly interface with built-in diagrams, auto-calculation and teacher assisting admin features"
 			}
 		}
     },
@@ -53,8 +61,8 @@
 				"btn": "Contact us"
 			},
 			"item3": {
-				"title": "Easy to use",
-				"subTitle": "User friendly interface with built-in diagrams, auto-calculation and teacher assisting admin features",
+				"title": "Find out what is the best fit for you!",
+				"subTitle": "Choose from various industries from banking through retail to production. We have a wide selection of products. To find the best solution browse from our simulations!",
 				"btn": "See more"
 			}
 		}
@@ -155,7 +163,7 @@
 				"btn": "Buy now"
             }
 		},
-		"text1": "Show the price for a",
+		"text1": "Show the price for a ",
 		"text2": " year",
 		"text3": " licence!",
 		"custom": "For custom packages feel free to contact us!",
@@ -197,13 +205,13 @@
 			"title": "Welcome",
 			"email": {
 				"text": "Email address",
-				"placehoder": "myname@example.com",
+				"placeholder": "myname@example.com",
 				"reqMsg": "Please enter an email adress!",
 				"validMsg": "The given email address is not valid."
 			},
 			"password": {
 				"text": "Password",
-				"placehoder": "Your password",
+				"placeholder": "Your password",
 				"reqMsg": "Please enter a password!",
 				"minLengthMsg": "The password must be at least 6 characters long.",
 				"forgot": "Forgot password?"
@@ -216,37 +224,37 @@
 			"title": "Create an account in a second",
 			"firstname": {
 				"text": "First name",
-				"placehoder": "e.g. John",
+				"placeholder": "e.g. John",
 				"reqMsg": "Please enter your first name!"
 			},
 			"lastname": {
 				"text": "Last name",
-				"placehoder": "e.g. Smith",
+				"placeholder": "e.g. Smith",
 				"reqMsg": "Please enter your last name!"
 			},
 			"email": {
 				"text": "Email address",
-				"placehoder": "myname@example.com",
+				"placeholder": "myname@example.com",
 				"reqMsg": "Please enter an email adress!",
 				"validMsg": "The given email address is not valid."
 			},
 			"password": {
 				"text": "Password",
-				"placehoder": "Your password",
+				"placeholder": "Your password",
 				"info": "Password must be at least 6 characters.",
 				"reqMsg": "Please enter a password!",
 				"minLengthMsg": "The password must be at least 6 characters long."
 			},
 			"repassword": {
 				"text": "Password again",
-				"placehoder": "The two passwords must match",
+				"placeholder": "The two passwords must match",
 				"reqMsg": "Please enter your pasword again!",
-				"sameAsMsg": "The two passwords not matches."
+				"sameAsMsg": "The two passwords don't match."
 			},
 			"privacy": {
 				"text": "I read and accept the <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Privacy Statement</a>",
 				"reqMsg": "You must accept the Privacy Statement!"
-			},
+			},			
 			"newsletter": {
 				"text": "Subscribe me to the newsletter!",
 				"reqMsg": "You have to subsribe to the newsletter!"
@@ -256,5 +264,4 @@
 			"login": "Log in"
 		}
     }
-
 }
