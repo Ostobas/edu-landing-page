@@ -30,7 +30,6 @@ ui.form('#loginForm', [{
         ]
     }
 ], function (results) {
-    console.log(results)
     if (results.valid) {
         var xhttp = new XMLHttpRequest()
         xhttp.onreadystatechange = function () {
@@ -40,7 +39,7 @@ ui.form('#loginForm', [{
         }
         xhttp.open('POST', '/api/v1/auth/login.php', true)
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
-        xhttp.send('data=' +  JSON.stringify(results))
+        xhttp.send('data=' +  JSON.stringify(results.fields))
     }
 })
 
@@ -103,7 +102,6 @@ ui.form('#signUpForm', [{
         }]
     }
 ], function (results) {
-    console.log(results)
     if (results.valid) {
         var xhttp = new XMLHttpRequest()
         xhttp.onreadystatechange = function () {
@@ -113,7 +111,7 @@ ui.form('#signUpForm', [{
         }
         xhttp.open('POST', '/api/v1/auth/registration.php', true)
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
-        xhttp.send('data=' +  JSON.stringify(results))
+        xhttp.send('data=' +  JSON.stringify(results.fields))
     }
 })
 
@@ -149,8 +147,8 @@ function changeLang(language) {
         default: lang = 'en'
         break
     }
+
     insertParam('l', lang)
-    location.reload()
 }
 
 function toggleDropdown(dropdown) {
