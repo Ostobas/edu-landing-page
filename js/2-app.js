@@ -88,9 +88,12 @@ ui.form('#signUpForm', [{
 })
 
 // Checks for cookie banner and create one if needed
-ui.cookieBanner(
-    'We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.'
-)
+ui.cookieBanner({
+    name: 'ecoCookieAgree',
+    value: true,
+    expire: 7,
+    text: 'We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.'
+})
 
 // Modal on link
 ;(function openModalOnLink() {
@@ -151,7 +154,7 @@ function slideProducts(dir) {
 // Type the text
 function typedText() {
     // Declare the words
-    var wordArr = ['engaging', 'interesting', 'fun', 'enjoyable', 'captivating', 'fascinating', 'effective', 'powerful', 'memorable', 'compelling', 'playful', 'ectraordinary', 'meaningful', 'remarkable']
+    var wordArr = ['fun', 'engaging', 'interesting', 'enjoyable', 'effective', 'powerful', 'playful']
     var numbOfWords = wordArr.length
 
     // Find the div
