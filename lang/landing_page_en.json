@@ -1,0 +1,224 @@
+{
+    "head": {
+		"title": "Edu | Business simulations",
+		"description": "Business simulations are excellent for engaging the students by the uses of gamification tools. Simulation aim to prepare students capable of applying acquired knowledge into practice.",
+		"keywords": "ecosim, edu, business, simulation, gamification, game, competition, venture",
+		"ogtitle": "Főoldal",
+		"ogdescription": "Business simulations are excellent for engaging the students by the uses of gamification tools. Simulation aim to prepare students capable of applying acquired knowledge into practice."
+	},
+	"nav": {
+        "title": "Edu",
+        "getStarted": "Get Started",
+        "products": "Products",
+        "pricing": "Pricing",
+		"login": "Login",
+		"signup": "Sign Up"
+    },
+    "pageHeader": {
+        "title:": "Studying can be",
+        "subTitle": "We believe in the power of gamification, which is embodied in our business simulations for education purposes!",
+        "btn": "Request Demo"
+    },
+    "about": {
+		"title": "Why simulation is an incredible solution?",
+		"subTitle1": "Through our business simulation students can step into the shoes of a CEO and manage their own business in competitive market.",
+		"subTitle2": "This provides them first hand experience in which they have to convert their theoretical knowledge into practice.",
+		"advantages": {
+			"item1": {
+				"title": "Learning by doing",
+				"subTitle": "Simulation aims to prepare students to be able to apply the acquired knowledge into practice"
+			},
+			"item2": {
+				"title": "Boost engagement",
+				"subTitle": "Increase student engagement through gamification and by creating a competitive environment"
+			},
+			"item3": {
+				"title": "Find out what is the best fit for you!",
+				"subTitle": "Choose from various industries from banking through retail to production. We have a wide selection of products. To find the best solution browse from our simulations!"
+			}
+		}
+    },
+    "getStarted": {
+		"title": "Get Started with Edu Business Simulations",
+		"subTitle": "Include our simulation in your finance, marketing, management or business courses. Let your students open shops, manage companies and industrial enterprises. Let them make mistakes, experience the sweet taste of victory, and face the consequences of their actions.",
+		"content": {
+			"item1": {
+				"title": "What is a business simulation?",
+				"subTitle": "Our business simulations are web-based applications which models the functions, the processes and the daily operation of a virtual company in the chosen sector. The players represent the Management Board and have to make strategic decision on fields like finance, marketing, HR, sales, production to ensure the successful perfomance of the company.",
+				"btn": "Read more"
+			},
+			"item2": {
+				"title": "How to include it in your class?",
+				"subTitle": "Connect theory with practice while actively engaging your students. Use business decisions as homework and analyze solutions in class. Make your class is more captivating by creating a competition among the students as part of their assessment.",
+				"btn": "Contact us"
+			},
+			"item3": {
+				"title": "Easy to use",
+				"subTitle": "User friendly interface with built-in diagrams, auto-calculation and teacher assisting admin features",
+				"btn": "See more"
+			}
+		}
+	},
+    "banner": {
+		"title": "Are you excited? <br/> Start your free trial now!",
+		"btn": "Request Demo"
+    },
+    "products": {
+        "title": "Discover among the huge variety of our products",
+        "focus": "Focus:",
+        "difficulty": "Difficulty",
+        "cards": {
+            "CornerShop": {
+                "name": "CornerShop",
+                "subName": "Small Business Management",
+                "body": "The players take over the management of a small shop selling groceries, newspapers and sweets. In the CornerShop simulation students make decision regarding entering new markets and widening product range. We recommend the simulation if you want to demonstrate basic business processes and concepts in practice.",
+                "focus": "management, basics of business, retail"
+            },
+            "SmartSim": {
+                "name": "SmartSim",
+                "subName": "Strategy & Branding",
+                "body": "In this game the task is to manage a Tech company which handles the production and distribution of tablets, smart phones and laptops. Beside basic business decisions (sales, HR, promotion) the players have to make decisions regarding production, research and development.",
+                "focus": "marketing, management, strategy"
+            },
+			"TechCo": {
+                "name": "TechCo",
+                "subName": "Strategic Planning",
+                "body": "This simulation game models the operation a company that develops and sells software. The long-term goal is to increase the company’s value which depends on several factors. TechCo shows complex processes, therefore we recommend it for students in their final year of studies.",
+                "focus": "project management, strategy, planning"
+            },
+			"Simsurance": {
+                "name": "Simsurance",
+                "subName": "Insurance & Finance",
+                "body": "During this game students can step into the shoes of the management team and take over the leadership of an insurance company. With Simsurance players can take a look at how an insurance company operates and what are the industry specific challenges it has to face.",
+                "focus": "insurance, finance, management"
+            },
+			"GearBike": {
+                "name": "GearBike",
+                "subName": "Advanced Retail",
+                "body": "This simulation models the business decisions of a bike retailer. Strategic decisions have to be made regarding sales, supplies and storage, as well as budget and resource management. Players also have to deal with the infrastructure costs.",
+                "focus": "marketing, retail, management, business"
+            },
+			"BankSim": {
+                "name": "BankSim",
+                "subName": "Finance & Banking",
+                "body": "The bank simulation focuses on understanding and experiencing financial transactions and processes. We recommend BankSim to students majoring in financial studies, as this is a great opportunity to take a look at how the financial market works.",
+                "focus": "banking, finance, capital market",
+				"ribbon": "COMING SOON"
+            },
+			"BeerCo": {
+                "name": "BeerCo",
+                "subName": "Production, Logistics & Retail",
+                "body": "This simulation models a company that produces and vends beer. Two important factors in BeerCo are the timing of launching the different products and the know-how needed to produce them. The simulation focuses on the FMCG market and demonstrates its processes.",
+                "focus": "logistics, production, sales, market research",
+				"ribbon": "COMING SOON"
+            },
+			"Engine": {
+                "name": "Engine",
+                "subName": "Production Management",
+                "body": "The players task is to successfully run a company that manufactures and sells car parts and motors. The simulation provides an opportunity to students to use their production management skills in a practical way, and to gain insight into the strategic questions of manufacturing and management.",
+                "focus": "production, optimization, management",
+				"ribbon": "COMING SOON"
+            }
+        },
+		"btn": "See all"
+    },
+    "pricing": {
+		"title": "Our prices",
+		"subTitle": "Our prices are based on the number of teachers, users, simulation options and the usage period. Find the option that suits you best!",
+		"cards": {
+            "Basic": {
+                "name": "Basic",
+                "listitem1": "<strong>1</strong> teacher account",
+                "listitem2": "<strong>10</strong> users",
+                "listitem3": "<strong>1</strong> given simulation",
+				"currency": "&euro; 0",
+				"month": "for 2 months",
+				"btn": "Try now"
+            },
+            "Premium": {
+                "name": "Premium",
+                "listitem1": "<strong>3</strong> teacher accounts",
+                "listitem2": "<strong>100</strong> users per course",
+                "listitem3": "<strong>1</strong> chosen simulation",
+				"currency": "&euro; ",
+				"month": "per year",
+				"btn": "Buy now",
+				"ribbon": "OUR RECOMMENDATION"
+            },
+			"Pro": {
+                "name": "Pro",
+                "listitem1": "<strong>unlimited</strong> teacher accounts",
+                "listitem2": "<strong>unlimited</strong> users",
+                "listitem3": "<strong>3</strong> chosen simulation",
+				"currency": "&euro; ",
+				"month": "per year",
+				"btn": "Buy now"
+            }
+		},
+		"text1": "Show the price for a",
+		"text2": " year",
+		"text3": " licence!",
+		"custom": "For custom packages feel free to contact us!",
+		"btn": "Contact us"
+    },
+    "references": {
+		"title": "Universities already using Edu Business Simulations"
+    },
+    "footer": {
+		"col1": {
+			"title": "Company",
+			"about": "About",
+			"services": "Services",
+			"team": "Team",
+			"careers": "Careers",
+			"contact": "Contact"
+		},
+		"col2": {
+			"title": "For enterprises",
+			"training": "<a href='https://www.ecosim.hu/en/services/business_simulation_training' target='_blank' rel='noopener'>Trainings</a>",
+			"competition": "<a href='https://www.ecosim.hu/en/services/competition_organizing' target='_blank' rel='noopener'>Student Competitions</a>",
+			"event": "<a href='https://www.ecosim.hu/en/services/mini_game' target='_blank' rel='noopener'>Games for Events</a>",
+			"championship": "<a href='https://www.ecosim.hu/en/services/teambuilding_corporate_championship' target='_blank' rel='noopener'>Corporate Championship</a>",
+			"simulation": "<a href='https://www.ecosim.hu/en/services/simulation_development' target='_blank' rel='noopener'>Simulation Development</a>"
+		},
+		"col3": {
+			"title": "Contact us",
+			"support": "support@ecosim.hu",
+			"linkedin": "LinkedIn",
+			"facebook": "Facebook",
+			"youtube": "YouTube",
+			"instagram": "Instagram"
+		},
+		"privacy": "<a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Privacy Policy</a>",
+		"copyright": "Copyright 2018 EcoSim"
+    },
+    "modals": {
+		"login": {
+			"title": "Welcome",
+			"email": "Email address",
+			"emailPH": "myname@example.com",
+			"pass": "Password",
+			"forgotpass": "Forgot password?",
+			"btn": "Login",
+			"text": "Dont't have an account yet?",
+			"signup": "Sign Up!"
+		},
+		"signup": {
+			"title": "Create an account in a second",
+			"firstname": "First name",
+			"firstnamePH": "e.g. John",
+			"lastname": "Last name",
+			"lastnamePH": "e.g. Smith",
+			"email": "Email address",
+			"emailPH": "myname@example.com",
+			"pass": "Password",
+			"passinfo": "Password must be at least 6 characters.",
+			"privacy": "I read and accept the <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Privacy Statement</a>",
+			"newsletter": "Subscribe me to the newsletter!",
+			"btn": "Create account",
+			"text": "Already have an account?",
+			"login": "Log in"
+		}
+    }
+
+}
