@@ -381,7 +381,7 @@ window.onload = function () {
         imgGrid.appendChild(img)
     }
     // Immediatly invoke with 9 images
-})(9)
+})(8)
 
 // Lazy loading
 document.addEventListener('DOMContentLoaded', function () {
