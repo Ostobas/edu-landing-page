@@ -71,6 +71,9 @@ readers do not read off random characters that represent icons */
 .fa-instagram:before {
   content: "\f16d";
 }
+.fa-globe:before {
+  content: "\f0ac";
+}
 
 @font-face {
   font-family: 'Font Awesome 5 Brands';

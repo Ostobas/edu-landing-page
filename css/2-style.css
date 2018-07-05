@@ -22,6 +22,40 @@ body {
 .nav.light .logo {
     background-image: url('../img/logo.png');
 }
+#langSelect {
+    position: relative;
+}
+#langSelect i {
+    font-size: 1.3rem;
+    margin-right: .5rem;
+}
+#langSelect .dropdown {
+    position: absolute;
+    right: 0;
+    height: 0;
+    opacity: 0;
+    top: 100%;
+    color: rgba(255,255,255,.5);
+    padding: .5rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+#langSelect .dropdown.active {
+    height: auto;
+    opacity: 1;
+}
+.nav.light #langSelect .dropdown {
+    background-color: #fff;
+    color: rgba(0,0,0,.6)
+}
+#langSelect .dropdown div{
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    #langSelect .text {
+        display: none;
+    }
+}
 .page-header {
     background-image: url("../img/bg-xs.jpg");
     color: #fff;

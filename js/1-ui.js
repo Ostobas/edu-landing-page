@@ -482,6 +482,8 @@
             // Expire time in days, have to turn into milisec
             date.setTime(date.getTime() + (expire * 1000 * 3600 * 24));
             var expires = ";expires=" + date.toUTCString()
+            // Set the cookie in no HTTPS env
+            document.cookie = name + "=" + value + expires
             document.cookie = name + "=" + value + expires + ";secure"
         },
 
@@ -515,6 +517,11 @@
             } else {
                 return false
             }
+        },
+
+        getCookieValue: function(name) {
+            var value = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+            return value ? value.pop() : '';
         },
 
         createCookieBanner: function(obj) {
