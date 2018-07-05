@@ -74,6 +74,16 @@
                             <button class="btn danger">{nav.signup}</button>
                         </a>
                     </li>
+                    <li id="langSelect" class="item-like">
+                        <a class="link">
+                            <i class="fas fa-globe"></i>
+                            <span class="text">Language</span>
+                        </a>
+                        <div class="dropdown">
+                            <div>HUN</div>
+                            <div>ENG</div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -572,7 +582,7 @@
                             </div>
                             <div class="field">
                                 <label>{modals.login.pass}</label>
-                                <input type="password" name="password" maxlength="30">
+                                <input type="password" name="password" placeholder="{modals.signup.emailPH}" maxlength="30">
                                 <small>
                                     <a href="#">{modals.login.forgotpass}</a>
                                 </small>
@@ -612,7 +622,7 @@
                             </div>
                             <div class="field">
                                 <label>{modals.signup.pass}</label>
-                                <input type="password" name="password" maxlength="30">
+                                <input type="password" name="password" maxlength="30" placeholder="{modals.signup.passwordPH}">
                                 <small>{modals.signup.passinfo}</small>
                             </div>
                             <div class="field">
