@@ -167,11 +167,11 @@
     "footer": {
 		"col1": {
 			"title": "Company",
-			"about": "About",
-			"services": "Services",
-			"team": "Team",
-			"careers": "Careers",
-			"contact": "Contact"
+			"about": "<a href='https://www.ecosim.hu/en/' target='_blank' rel='noopener'>About</a>",
+			"services": "<a href='https://www.ecosim.hu/en/services' target='_blank' rel='noopener'>Services</a>",
+			"team": "<a href='https://www.ecosim.hu/en/team' target='_blank' rel='noopener'>Team</a>",
+			"careers": "<a href='https://www.ecosim.hu/en/career' target='_blank' rel='noopener'>Careers</a>",
+			"contact": "<a href='https://www.ecosim.hu/en/contact' target='_blank' rel='noopener'>Contact</a>"
 		},
 		"col2": {
 			"title": "For enterprises",
@@ -198,6 +198,7 @@
 			"email": "Email address",
 			"emailPH": "myname@example.com",
 			"pass": "Password",
+			"passPH": "Your password",
 			"forgotpass": "Forgot password?",
 			"btn": "Login",
 			"text": "Dont't have an account yet?",
@@ -212,6 +213,9 @@
 			"email": "Email address",
 			"emailPH": "myname@example.com",
 			"pass": "Password",
+			"passPH": "Your password",
+			"repass": "Password again",
+			"repassPH": "Your password again",
 			"passinfo": "Password must be at least 6 characters.",
 			"privacy": "I read and accept the <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Privacy Statement</a>",
 			"newsletter": "Subscribe me to the newsletter!",

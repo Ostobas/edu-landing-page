@@ -1,0 +1,228 @@
+{
+    "head": {
+		"title": "Edu | Üzleti szimulációk",
+		"description": "Az Edu Üzleti Szimuláció tökéletes eszköz a diákok tanulás iránti elköteleződésének növelésére a játékosítás eszközeinek használatával. A szimuláció célja a diákok tárgyi tudásának átültetése a gyakorlatba.",
+		"keywords": "ecosim, edu, üzlet, szimuláció, gamification, játék, verseny, vállalkozás, vezetés",
+		"ogtitle": "Főoldal",
+		"ogdescription": "Az Edu Üzleti Szimuláció tökéletes eszköz a diákok tanulás iránti elköteleződésének növelésére a játékosítás eszközeinek használatával. A szimuláció célja a diákok tárgyi tudásának átültetése a gyakorlatba."
+	},
+	"nav": {
+        "title": "Edu",
+        "getStarted": "Kezdj hozzá",
+        "products": "Szimulációk",
+        "pricing": "Áraink",
+		"login": "Bejelentkezés",
+		"signup": "Regisztráció"
+    },
+    "pageHeader": {
+        "title": "Játékosítással az órák",
+        "subTitle": "Hiszünk a játékos okatatás erejében és üzleti szimulációinkkal is ezt képviseljük!",
+        "btn": "DEMO kipróbálása"
+    },
+    "about": {
+		"title": "Miért egyedülálló megoldás az oktatási szimuláció?",
+		"subTitle1": "Szimulációinkkal a diákok a döntéshozók börébe bújhatnak és test közelből megtapasztalhatják, hogy milyen kihívásokkal szembesül a vállalat egy kompetitív piacon.",
+		"subTitle2": "A valóságot modellező döntéseik során az órán megszerzett tárgyi tudásukat gyakorlati tapasztalattá formálják.",
+		"advantages": {
+			"item1": {
+				"title": "Gyakorlat általi tanulás",
+				"subTitle": "A szimuláció célja a diákok tárgyi tudásának átültetése a gyakorlatba, miközben valósághű szituációban tehetik próbára magukat"
+			},
+			"item2": {
+				"title": "Növekvő elkötelezettség",
+				"subTitle": "A diákok aktivitásának növelése és a versenyszellem kialakítása játékosításon keresztül"
+			},
+			"item3": {
+				"title": "Felhasználó barát felület",
+				"subTitle": "Játékfelületbe épített diagrammok, tervezést segítő autómatikus kalkuláció és az oktatót támogató megoldások"
+			}
+		}
+    },
+    "getStarted": {
+		"title": "Tedd az órád részévé az Edu Üzleti Szimulációt",
+		"subTitle": "Építsd be oktatási szimulácónkat a pénzügyi, a marketing, a menedzsment vagy az üzleti tárgyak tantervébe. Adj lehetőséget diákjaidnak, hogy virtuális boltot nyissanak vagy egy vállalatot iránytsanak. Ismerjék meg a vezetés örömét és a döntéseik következményeit az Edu Üzleti Szimuláción keresztül.",
+		"content": {
+			"item1": {
+				"title": "Mi az Edu Üzleti Szimuláció?",
+				"subTitle": "Egy olyan web-alapú alkalmazás, ami modellezi egy virtuális vállalat gazdasági működését és folyamatait egy választott iparágban. A játékosok az Igazgatótanács nevében hoznak stratégiai döntéseket a vállalat sikeres működése érdekében olyan területeken, mint a pénzügy, marketing, HR, értékesítés és termelés.",
+				"btn": "Tudj meg többet"
+			},
+			"item2": {
+				"title": "Hogyan építsd be az óráidba az Edu-t?",
+				"subTitle": "Motiváld diákjaidat azáltal, hogy összekötöd az elméletet a gyakorlattal. Add fel házi feladatnak a startégiai döntéshozást és a megoldásokat együtt elemezzéktek az órán. Szervezz háziversenyt a szimulációval, melynek eredménye az értékelésbe is beleszámíthat.",
+				"btn": "Keress minket"
+			},
+			"item3": {
+				"title": "Nézd meg mi illeszkedik leginkább szakterületedhez!",
+				"subTitle": "Válassz többféle iparágból, a bank szektortól, a kereskedelmen át, a gyártásig! Nézz körül széles termék választékunkban! A legjobb megoldásért görgess szimulációinkhoz!",
+				"btn": "Tudj meg többet"
+			}
+		}
+	},
+    "banner": {
+		"title": "Felkeltettük érdeklődésed?<br/>Próbáld ki ingyenes verziónkat!",
+		"btn": "DEMO kipróbálása"
+    },
+    "products": {
+        "title": "Nézz körül üzleti szimulációink között!",
+        "focus": "Fókusz:",
+        "difficulty": "Nehézségi fok:",
+        "cards": {
+            "CornerShop": {
+                "name": "CornerShop",
+                "subName": "Small Business Management",
+                "body": "A játékosok egy élelmiszereket, újságokat és édességet árusító kisbolt irányítását veszik át. A CornerShop-ban a diákok dönthetnek további piacokra való belépésről, mint a játék, szépségápolási- és háztartási cikkek. Azoknak ajánljuk ezt a szimulációt, akik az alapvető gazdasági folyamatokat és fogalmakat szeretnék a gyakorlatban szemléltetni.",
+                "focus": "marketing, pénzügyi alapok, kereskedelmi alapok"
+            },
+            "SmartSim": {
+                "name": "SmartSim",
+                "subName": "Strategy & Branding",
+                "body": "A játék során egy virtuális tech vállalat irányítása a feladat. A cég tabletek, telefonok és laptopok gyártásával és értékesítésével foglalkozik, így az alap üzleti döntések (értékesítés, HR, promóció) mellett termeléssel és K+F-el kapcsolatos döntéseket is kell hozni.",
+                "focus": "marketing, vállalati pénzügyek, termelésmenedzsment"
+            },
+			"TechCo": {
+                "name": "TechCo",
+                "subName": "Strategic Planning",
+                "body": "A szimulációs játék egy szoftvereket fejlesztő és értékesítő vállalat működését modellezi. A játékon belül kiemelt szerepe van a projekteknek. A cél a vállalat értékének hosszú távú növelése, mely több tényezőtől függ. A TechCo-ban már összetettebb folyamatokat szimulálunk, ezért a tanulmányaik vége fele járó célcsoportnak ajánljuk.",
+                "focus": "marketing, projekt-, stratégiai menedzsment"
+            },
+			"Simsurance": {
+                "name": "Simsurance",
+                "subName": "Insurance & Finance",
+                "body": "A játék során egy képzeletbeli biztosító társaság felett vehetik át az irányítást a diákok, mint a felső menedzsment tagjai. A Simsurance által betekintést nyerhetnek egy biztosító társaság működésébe és iparág specifikus kihívásaiba.",
+                "focus": "marketing, vállalati pénzügyek, biztosítások"
+            },
+			"GearBike": {
+                "name": "GearBike",
+                "subName": "Advanced Retail",
+                "body": "A szimuláció egy kerékpár áruház üzleti döntéseit modellezi. Cél az értékesítéssel, árubeszerzéssel, költség-, erőforrás- és pénzgazdálkodással kapcsolatos döntések optimalizálása. Itt már az infrastruktúra költség alakulását is a játékosoknak kell menedzselni.",
+                "focus": "marketing, erőforrás-, költségmenedzsment"
+            },
+			"BankSim": {
+                "name": "BankSim",
+                "subName": "Finance & Banking",
+                "body": "A bank szimuláció fókuszában a pénzügyi tranzakciók és folyamatok megértése és megtapasztalása áll. A BankSim-et elsősorban pénzügyi tanulmányokat folytatóknak ajánljuk, hiszen ez egy jó lehetőség betekinteni a pénzpiacra.",
+                "focus": "banküzemtan, pénzügyek, menedzsment",
+				"ribbon": "HAMAROSAN"
+            },
+			"BeerCo": {
+                "name": "BeerCo",
+                "subName": "Production, Logistics & Retail",
+                "body": "A szimuláció egy sör termelő és értékesítő vállalat működését modellezni. A BeerCo-ban fontos tényező a különböző termékek bevezetésének megfelelő ütemezése és az ezzel járó előállításhoz szükséges know-how. A szimuláció az FMCG piacra koncentrál és annak működését mutatja be.",
+                "focus": "marketing, FMCG, termék portfólió menedzsment",
+				"ribbon": "HAMAROSAN"
+            },
+			"Engine": {
+                "name": "Engine",
+                "subName": "Production Management",
+                "body": "A játékosok feladata egy autóalkatrészeket és motorokat gyártó, illetve értékesítő cég sikeres menedzselése. A program lehetőséget ad arra, hogy az alapvető termelésmenedzsment ismereteket a szimuláció résztvevői gyakorlatias módon alkalmazzák, és betekintést nyerjenek a gyártás és irányítás stratégiai kérdéseibe.",
+                "focus": "marketing, pénzügyek, műszaki ismeretek",
+				"ribbon": "HAMAROSAN"
+            }
+        },
+		"btn": "Bővebben"
+    },
+    "pricing": {
+		"title": "Áraink",
+		"subTitle": "Három különböző csomagból lehet választani igény szerint. Egyedi ajánlattal keress minket!",
+		"cards": {
+            "Basic": {
+                "name": "Basic",
+                "listitem1": "<strong>1</strong> oktatói fiók",
+                "listitem2": "<strong>10</strong> felhasználó (diák)",
+                "listitem3": "<strong>1</strong> adott szimuláció",
+				"currency": "&euro; 0",
+				"month": "2 hónapra",
+				"btn": "Próbáld ki"
+            },
+            "Premium": {
+                "name": "Premium",
+                "listitem1": "<strong>3</strong> oktatói fiók",
+                "listitem2": "<strong>100</strong> felhasználó (diák)/ kurzus",
+                "listitem3": "<strong>1</strong> választott szimuláció",
+				"currency": "&euro; ",
+				"month": "évre",
+				"btn": "Vásárlás",
+				"ribbon": "LEGJOBB VÁLASZTÁS!"
+            },
+			"Pro": {
+                "name": "Pro",
+                "listitem1": "<strong>korlátlan</strong> számú oktatói fiók",
+                "listitem2": "<strong>korlátlan</strong> számú felhasználó",
+                "listitem3": "<strong>3</strong> választott szimuláció",
+				"currency": "&euro; ",
+				"month": "évre",
+				"btn": "Vásárlás"
+            }
+		},
+		"text1": "Mutasd az árat egy ",
+		"text2": " évre szóló",
+		"text3": " licenszért!",
+		"custom": "Egyedi ajánlatokért keress minket!",
+		"btn": "Keress minket"
+    },
+    "references": {
+		"title": "Egyetemek, akik már használják szimulációinkat"
+    },
+    "footer": {
+		"col1": {
+			"title": "EcoSim",
+			"about": "<a href='https://www.ecosim.hu/' target='_blank' rel='noopener'>Rólunk</a>",
+			"services": "<a href='https://www.ecosim.hu/szolgaltatasaink' target='_blank' rel='noopener'>Szolgáltatások</a>",
+			"team": "<a href='https://www.ecosim.hu/csapat' target='_blank' rel='noopener'>Csapat</a>",
+			"careers": "<a href='https://www.ecosim.hu/karrier' target='_blank' rel='noopener'>Karrier</a>",
+			"contact": "<a href='https://www.ecosim.hu/kapcsolat' target='_blank' rel='noopener'>Kapcsolat</a>"
+		},
+		"col2": {
+			"title": "Cégeknek",
+			"training": "<a href='https://www.ecosim.hu/szolgaltatasaink/uzleti_szimulacios_trening' target='_blank' rel='noopener'>Tréningek</a>",
+			"competition": "<a href='https://www.ecosim.hu/szolgaltatasaink/versenyszervezes' target='_blank' rel='noopener'>Diákversenyek</a>",
+			"event": "<a href='https://www.ecosim.hu/munkaink/mini_szakmai_jatek' target='_blank' rel='noopener'>Minijátékok</a>",
+			"championship": "<a href='https://www.ecosim.hu/szolgaltatasaink/csapatepites_vallalati_bajnoksag' target='_blank' rel='noopener'>Vállalati bajnokság</a>",
+			"simulation": "<a href='https://www.ecosim.hu/szolgaltatasaink/szimulacio_fejlesztes' target='_blank' rel='noopener'>Szimuláció fejlesztés</a>"
+		},
+		"col3": {
+			"title": "Contact us",
+			"support": "support@ecosim.hu",
+			"linkedin": "LinkedIn",
+			"facebook": "Facebook",
+			"youtube": "YouTube",
+			"instagram": "Instagram"
+		},
+		"privacy": "<a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Adatvédelmi Nyilatkozat</a>",
+		"copyright": "Copyright 2018 EcoSim"
+    },
+    "modals": {
+		"login": {
+			"title": "Üdvözöljük!",
+			"email": "Email cím",
+			"emailPH": "pl.: pelda@xyz.hu",
+			"pass": "Jelszó",
+			"passPH": "Írd ide a jelszavad",
+			"forgotpass": "Jelszó emlékeztető",
+			"btn": "Bejelentkezés",
+			"text": "Nincs még fiókom.",
+			"signup": "Iratkozz fel!"
+		},
+		"signup": {
+			"title": "Hozz létre fiókot!",
+			"firstname": "Keresztnév",
+			"firstnamePH": "pl.: Ádám",
+			"lastname": "Vezetéknév",
+			"lastnamePH": "pl.: Nagy",
+			"email": "Email cím",
+			"emailPH": "pl.: pelda@xyz.hu",
+			"pass": "Jelszó",
+			"passPH": "Írd ide a jelszavad",
+			"passinfo": "Jelszó minimum 6 karakteres legyen!",
+			"repass": "Jelszó mégegyszer",
+			"repassPH": "A két jelszónak meg kell egyeznie",
+			"privacy": "Elolvastam és elfogadom az <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Adatvédelmi Nyilatkozatot</a>",
+			"newsletter": "Iratkozz fel a hírlevélre!",
+			"btn": "Fiók létrehozása",
+			"text": "Már van saját fiókod?",
+			"login": "Bejelentkezés"
+		}
+    }
+
+}
