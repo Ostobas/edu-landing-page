@@ -137,6 +137,10 @@ ui.cookieBanner({
     })
 })()
 
+function toggleDropdown(dropdown) {
+    dropdown.classList.toggle('active')
+}
+
 function changeLang(language) {
     var lang
     switch (language) {
@@ -149,10 +153,6 @@ function changeLang(language) {
     }
 
     insertParam('l', lang)
-}
-
-function toggleDropdown(dropdown) {
-    dropdown.classList.toggle('active')
 }
 
 function insertParam(key, value)
