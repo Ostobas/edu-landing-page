@@ -195,30 +195,62 @@
     "modals": {
 		"login": {
 			"title": "Welcome",
-			"email": "Email address",
-			"emailPH": "myname@example.com",
-			"pass": "Password",
-			"passPH": "Your password",
-			"forgotpass": "Forgot password?",
+			"email": {
+				"text": "Email address",
+				"placehoder": "myname@example.com",
+				"reqMsg": "Please enter an email adress!",
+				"validMsg": "The given email address is not valid."
+			},
+			"password": {
+				"text": "Password",
+				"placehoder": "Your password",
+				"reqMsg": "Please enter a password!",
+				"minLengthMsg": "The password must be at least 6 characters long.",
+				"forgot": "Forgot password?"
+			},
 			"btn": "Login",
 			"text": "Dont't have an account yet?",
 			"signup": "Sign Up!"
 		},
 		"signup": {
 			"title": "Create an account in a second",
-			"firstname": "First name",
-			"firstnamePH": "e.g. John",
-			"lastname": "Last name",
-			"lastnamePH": "e.g. Smith",
-			"email": "Email address",
-			"emailPH": "myname@example.com",
-			"pass": "Password",
-			"passPH": "Your password",
-			"repass": "Password again",
-			"repassPH": "Your password again",
-			"passinfo": "Password must be at least 6 characters.",
-			"privacy": "I read and accept the <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Privacy Statement</a>",
-			"newsletter": "Subscribe me to the newsletter!",
+			"firstname": {
+				"text": "First name",
+				"placehoder": "e.g. John",
+				"reqMsg": "Please enter your first name!"
+			},
+			"lastname": {
+				"text": "Last name",
+				"placehoder": "e.g. Smith",
+				"reqMsg": "Please enter your last name!"
+			},
+			"email": {
+				"text": "Email address",
+				"placehoder": "myname@example.com",
+				"reqMsg": "Please enter an email adress!",
+				"validMsg": "The given email address is not valid."
+			},
+			"password": {
+				"text": "Password",
+				"placehoder": "Your password",
+				"info": "Password must be at least 6 characters.",
+				"reqMsg": "Please enter a password!",
+				"minLengthMsg": "The password must be at least 6 characters long."
+			},
+			"repassword": {
+				"text": "Password again",
+				"placehoder": "The two passwords must match",
+				"reqMsg": "Please enter your pasword again!",
+				"sameAsMsg": "The two passwords not matches."
+			},
+			"privacy": {
+				"text": "I read and accept the <a href='https://edu.ecosim.hu/adatvedelmi_nyilatkozat' target='_blank' rel='noopener'>Privacy Statement</a>",
+				"reqMsg": "You must accept the Privacy Statement!"
+			},
+			"newsletter": {
+				"text": "Subscribe me to the newsletter!",
+				"reqMsg": "You have to subsribe to the newsletter!"
+			},
 			"btn": "Create account",
 			"text": "Already have an account?",
 			"login": "Log in"

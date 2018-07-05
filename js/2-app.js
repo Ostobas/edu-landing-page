@@ -9,11 +9,11 @@ ui.form('#loginForm', [{
         name: 'email',
         rules: [{
                 type: 'required',
-                message: 'Please enter an email adress!'
+                message: '<modals.login.email.reqMsg>'
             },
             {
                 type: 'validEmail',
-                message: 'The given email address is not valid.'
+                message: '<modals.login.email.validMsg>'
             }
         ]
     },
@@ -21,11 +21,11 @@ ui.form('#loginForm', [{
         name: 'password',
         rules: [{
                 type: 'required',
-                message: 'Please enter a password!'
+                message: '<modals.login.password.reqMsg>'
             },
             {
                 type: 'minLength(6)',
-                message: 'The password must be at least 6 characters long.'
+                message: '<modals.login.password.minLengthMsg>'
             }
         ]
     }
@@ -48,57 +48,57 @@ ui.form('#signUpForm', [{
         name: 'firstname',
         rules: [{
             type: 'required',
-            message: 'Please enter your first name!'
+            message: '<modals.signup.firstname.reqMsg>'
         }]
     }, {
         name: 'lastname',
         rules: [{
             type: 'required',
-            message: 'Please enter your last name!'
+            message: '<modals.signup.lastname.reqMsg>'
         }]
     }, {
         name: 'email',
         rules: [{
                 type: 'required',
-                message: 'Please enter an email adress!'
+                message: '<modals.signup.email.reqMsg>'
             },
             {
                 type: 'validEmail',
-                message: 'The given email address is not valid.'
+                message: '<modals.signup.email.validMsg>'
             }
         ]
     }, {
         name: 'password',
         rules: [{
                 type: 'required',
-                message: 'Please enter a password!'
+                message: '<modals.signup.password.reqMsg>'
             },
             {
                 type: 'minLength(6)',
-                message: 'The password must be at least 6 characters long.'
+                message: '<modals.signup.password.minLengthMsg>'
             }
         ]
     }, {
         name: 'repassword',
         rules: [{
                 type: 'required',
-                message: 'Please enter your pasword again!'
+                message: '<modals.signup.repassword.reqMsg>'
             },{
                 type: 'sameAs(password)',
-                message: 'The two passwords not matches.'
+                message: '<modals.signup.repassword.sameAsMsg>'
             }
         ]
     }, {
         name: 'privacy',
         rules: [{
             type: 'required',
-            message: 'You must accept the Privacy Statement!'
+            message: '<modals.signup.privacy.reqMsg>'
         }]
     }, {
         name: 'newsletter',
         rules: [{
             type: 'required',
-            message: 'You have to subsribe to the newsletter!'
+            message: '<modals.signup.newsletter.reqMsg>'
         }]
     }
 ], function (results) {
@@ -120,7 +120,7 @@ ui.cookieBanner({
     name: 'ecoCookieAgree',
     value: true,
     expire: 7,
-    text: 'We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.'
+    text: '<cookieText>'
 })
 
 // Language dropdown
@@ -238,7 +238,7 @@ function slideProducts(dir) {
 // Type the text
 function typedText() {
     // Declare the words
-    var wordArr = ['fun', 'engaging', 'interesting', 'enjoyable', 'effective', 'powerful', 'playful']
+    var wordArr = ['<pageHeader.typedText1>', '<pageHeader.typedText2>', '<pageHeader.typedText3>', '<pageHeader.typedTex4>', '<pageHeader.typedText5>', '<pageHeader.typedText6>', '<pageHeader.typedText7>']
     var numbOfWords = wordArr.length
 
     // Find the div
